@@ -10743,6 +10743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1821820285}
+  - component: {fileID: 1821820286}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -10766,6 +10767,22 @@ Transform:
   - {fileID: 1974102136}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1821820286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821820283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: badd06a534401a74c931404ec4db3108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawner
+  objectPrefab: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  controllerNode: 5
+  spawnCooldown: 1
 --- !u!1 &1833259359
 GameObject:
   m_ObjectHideFlags: 0
